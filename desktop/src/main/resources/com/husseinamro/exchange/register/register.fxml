@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.FlowPane?>
+<FlowPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.husseinamro.exchange.register.Register"
+          stylesheets="@register.css"
+          prefHeight="400.0" prefWidth="600.0"
+          orientation="VERTICAL"
+          vgap="10"
+          alignment="CENTER"
+>
+    <Label styleClass="title" text="Create New Account"/>
+    <Label text="Username"/>
+    <TextField fx:id="usernameTextField"/>
+    <Label text="Password"/>
+    <TextField fx:id="passwordTextField"/>
+    <Button text="Create Account" onAction="#register"/>
+</FlowPane>

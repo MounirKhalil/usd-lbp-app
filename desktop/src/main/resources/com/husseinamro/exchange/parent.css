@@ -1,0 +1,8 @@
+.nav-container {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-pref-width: 150px;
+}
+.nav-button {
+    -fx-max-width: 150px;
+}

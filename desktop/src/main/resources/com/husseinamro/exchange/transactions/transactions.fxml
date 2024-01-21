@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.husseinamro.exchange.transactions.Transactions"
+            prefHeight="400.0" prefWidth="600.0">
+    <TableView
+            fx:id="tableView"
+            AnchorPane.bottomAnchor="4"
+            AnchorPane.leftAnchor="4"
+            AnchorPane.rightAnchor="4"
+            AnchorPane.topAnchor="4">
+        <columns>
+            <TableColumn text="USD Amount" fx:id="usdAmount"
+                         prefWidth="150"/>
+            <TableColumn text="LBP Amount" fx:id="lbpAmount"
+                         prefWidth="150"/>
+            <TableColumn text="Transaction Date" fx:id="transactionDate"
+                         prefWidth="150"/>
+        </columns>
+    </TableView>
+</AnchorPane>

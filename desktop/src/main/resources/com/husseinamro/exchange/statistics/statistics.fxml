@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<GridPane fx:controller="com.husseinamro.exchange.statistics.Statistics"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10"
+          vgap="10" prefHeight="600.0" prefWidth="600.0" stylesheets="@statistics.css">
+
+    <Label text="Statistical Analysis"
+           textAlignment="CENTER" GridPane.columnSpan="2"
+           GridPane.halignment="CENTER" styleClass="header"/>
+
+    <Label text="The Change Percentage between the" GridPane.columnIndex="1"
+           GridPane.rowIndex="1" styleClass="value-label"/>
+    <Label text="last two transactions for buying USD = " GridPane.columnIndex="1"
+           GridPane.rowIndex="2" styleClass="value-label"/>
+    <Label fx:id="ChangePer1" text="??"
+           GridPane.columnIndex="2" GridPane.rowIndex="2" styleClass="value"/>
+    <Separator orientation="HORIZONTAL" GridPane.rowIndex="3"
+               GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+
+    <Label text="The Change Percentage between the" GridPane.columnIndex="1"
+           GridPane.rowIndex="4" styleClass="value-label"/>
+    <Label text="last two transactions for selling USD = " GridPane.columnIndex="1"
+           GridPane.rowIndex="5" styleClass="value-label"/>
+    <Label fx:id="ChangePer2" text="??"
+           GridPane.columnIndex="2" GridPane.rowIndex="5" styleClass="value"/>
+    <Separator orientation="HORIZONTAL" GridPane.rowIndex="6"
+               GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+
+    <Label text="The total change in exchange" GridPane.columnIndex="1"
+           GridPane.rowIndex="7" styleClass="value-label"/>
+    <Label text="rate for buying USD = " GridPane.columnIndex="1"
+           GridPane.rowIndex="8" styleClass="value-label"/>
+    <Label fx:id="ChangePer3" text="??"
+           GridPane.columnIndex="2" GridPane.rowIndex="8" styleClass="value"/>
+    <Separator orientation="HORIZONTAL" GridPane.rowIndex="9"
+               GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+
+    <Label text="The total change in exchange" GridPane.columnIndex="1"
+           GridPane.rowIndex="10" styleClass="value-label"/>
+    <Label text="rate for selling USD = " GridPane.columnIndex="1"
+           GridPane.rowIndex="11" styleClass="value-label"/>
+    <Label fx:id="ChangePer4" text="??"
+           GridPane.columnIndex="2" GridPane.rowIndex="11" styleClass="value"/>
+    <Separator orientation="HORIZONTAL" GridPane.rowIndex="12"
+               GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+
+</GridPane>

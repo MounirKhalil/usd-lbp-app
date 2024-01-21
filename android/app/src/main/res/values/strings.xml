@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Currency Exchange</string>
+    <string-array name="currency_options">
+        <item>I have ... USD, how much LBP can I get?</item>
+        <item>I want ... USD, how much LBP should I have?</item>
+        <item>I have ... LBP, how much USD can I get?</item>
+        <item>I want ... LBP, how much USD should I have?</item>
+    </string-array>
+</resources>

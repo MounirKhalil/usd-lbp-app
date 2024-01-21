@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            fx:id="borderPane" fx:controller="com.husseinamro.exchange.Parent"
+            xmlns:fx="http://javafx.com/fxml" prefHeight="400.0"
+            stylesheets="@parent.css"
+            prefWidth="600.0">
+    <left>
+        <VBox spacing="5" styleClass="nav-container" fillWidth="true">
+            <Button styleClass="nav-button" text="Exchange Rate"
+                    onAction="#ratesSelected"/>
+            <Button fx:id="transactionButton" styleClass="nav-button"
+                    text="Transactions"
+                    onAction="#transactionsSelected"/>
+            <Button fx:id="loginButton" styleClass="nav-button"
+                    text="Login" onAction="#loginSelected"/>
+            <Button fx:id="registerButton" styleClass="nav-button"
+                    text="Register" onAction="#registerSelected"/>
+            <Button fx:id="logoutButton" styleClass="nav-button"
+                    text="Logout" onAction="#logoutSelected"/>
+            <Button fx:id="statButton" styleClass="nav-button"
+                    text="Statistics" onAction="#statSelected"/>
+            <Button fx:id="statButton1" styleClass="nav-button"
+                    text="Graph 1" onAction="#stat1Selected"/>
+            <Button fx:id="statButton2" styleClass="nav-button"
+                    text="Graph 2" onAction="#stat2Selected"/>
+            <Button fx:id="Platform" styleClass="nav-button"
+                    text="Platform" onAction="#platSelected"/>
+        </VBox>
+    </left>
+    <center>
+        <fx:include source="rates/layout.fxml"/>
+    </center>
+</BorderPane>

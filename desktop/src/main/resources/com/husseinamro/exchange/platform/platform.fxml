@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:controller="com.husseinamro.exchange.platform.Platform"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10"
+          vgap="10" prefHeight="600.0" prefWidth="600.0" stylesheets="@platform.css">
+
+    <Label text="User's Platform"
+           textAlignment="CENTER" GridPane.columnSpan="2"
+           GridPane.halignment="CENTER" styleClass="header"/>
+
+</GridPane>

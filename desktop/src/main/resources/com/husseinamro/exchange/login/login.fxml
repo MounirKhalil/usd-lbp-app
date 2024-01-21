@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<FlowPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.husseinamro.exchange.login.Login"
+          stylesheets="@login.css"
+          prefHeight="400.0" prefWidth="600.0"
+          orientation="VERTICAL"
+          vgap="10"
+          alignment="CENTER"
+>
+    <Label styleClass="title" text="Login"/>
+    <Label text="Username"/>
+    <TextField fx:id="usernameTextField"/>
+    <Label text="Password"/>
+    <TextField fx:id="passwordTextField"/>
+    <Button text="Login" onAction="#login"/>
+</FlowPane>
